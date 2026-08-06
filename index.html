@@ -1,64 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carston HQ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body{
-            margin:0;
-            background:#111;
-            color:white;
-            font-family:Arial, Helvetica, sans-serif;
-            text-align:center;
-        }
+<title>Carston HQ | World of Tanks Garage</title>
 
-        header{
-            background:#b30000;
-            padding:25px;
-        }
+<style>
 
-        h1{
-            margin:0;
-            font-size:48px;
-            color:gold;
-        }
+body {
+    margin: 0;
+    background: #080808;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-        p{
-            color:#ddd;
-            font-size:20px;
-        }
+/* HEADER */
 
-        .button{
-            display:inline-block;
-            margin-top:30px;
-            background:gold;
-            color:black;
-            padding:15px 30px;
-            text-decoration:none;
-            border-radius:8px;
-            font-weight:bold;
-        }
-    </style>
+header {
+    background: linear-gradient(#220000,#000000);
+    border-bottom: 3px solid gold;
+    padding: 30px;
+    text-align:center;
+}
+
+h1 {
+    color: gold;
+    font-size: 50px;
+    margin:0;
+}
+
+.subtitle {
+    color:#ddd;
+    font-size:20px;
+}
+
+
+/* MENU */
+
+nav {
+    background:#b00000;
+    padding:15px;
+    text-align:center;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+
+/* SEARCH */
+
+.search {
+    text-align:center;
+    padding:40px;
+}
+
+input {
+    width:60%;
+    padding:15px;
+    border-radius:10px;
+    border:none;
+    font-size:18px;
+}
+
+
+/* SECTIONS */
+
+section {
+    padding:30px;
+}
+
+.title {
+    color:gold;
+    font-size:30px;
+    border-bottom:2px solid red;
+}
+
+
+/* CARDS */
+
+.container {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+
+.card {
+    background:#151515;
+    border:2px solid #b00000;
+    border-radius:10px;
+    padding:20px;
+    width:250px;
+}
+
+
+.card h3 {
+    color:gold;
+}
+
+
+/* FOOTER */
+
+footer {
+    background:#b00000;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+.gold {
+    color:gold;
+}
+
+</style>
+
 </head>
+
 
 <body>
 
+
 <header>
-    <h1>👑 Carston HQ</h1>
-</header>
 
-<h2>Welcome Commander!</h2>
+<h1>👑 CARSTON HQ</h1>
 
-<p>
-The home of my World of Tanks builds, Marks of Excellence,
-equipment, field mods, guides, and more.
+<p class="subtitle">
+World of Tanks Garage | Marks | Builds | Guides
 </p>
 
-<a class="button" href="#">
-Coming Soon
-</a>
+</header>
+
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">3 Marks</a>
+<a href="#">2 Marks</a>
+<a href="#">1 Mark</a>
+<a href="#">Equipment</a>
+
+</nav>
+
+
+
+<div class="search">
+
+<h2 class="gold">🔍 Find A Tank</h2>
+
+<input placeholder="Search tanks coming soon...">
+
+</div>
+
+
+
+<section>
+
+<h2 class="title">
+🏆 3 MARKED TANKS
+</h2>
+
+
+<div class="container">
+
+
+<div class="card">
+
+<h3>Coming Soon</h3>
+
+<p>
+Your 3 marked tanks will appear here.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+<section>
+
+<h2 class="title">
+⭐⭐ 2 MARKED TANKS
+</h2>
+
+
+<div class="container">
+
+<div class="card">
+
+<h3>Coming Soon</h3>
+
+<p>
+Your second marks will appear here.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section>
+
+<h2 class="title">
+⭐ 1 MARK TANKS
+</h2>
+
+
+<div class="container">
+
+<div class="card">
+
+<h3>Coming Soon</h3>
+
+<p>
+Your first marks will appear here.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section>
+
+<h2 class="title">
+⚙ Equipment & Builds
+</h2>
+
+
+<div class="card">
+
+<h3>Future Feature</h3>
+
+<p>
+Equipment setups, crew skills, field mods and ammo layouts.
+</p>
+
+</div>
+
+
+</section>
+
+
+
+
+<section>
+
+<h2 class="title">
+🎥 Content
+</h2>
+
+
+<div class="card">
+
+<h3>YouTube & Twitch</h3>
+
+<p>
+Tank guides, gameplay videos and stream highlights.
+</p>
+
+</div>
+
+
+</section>
+
+
+
+<footer>
+
+<p>
+👑 King Carston | Carston HQ
+</p>
+
+<p>
+Building the ultimate World of Tanks garage.
+</p>
+
+</footer>
+
+
 
 </body>
 </html>
